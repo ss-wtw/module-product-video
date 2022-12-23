@@ -1,0 +1,18 @@
+{
+    "name": "SixtySeven/module-product-video",
+    "description": "Upload Video to Products",
+    "require": {
+        "magento/module-product-video": "100.*.*",
+        "magento/module-catalog": "100.*.*"
+    },
+    "type": "magento2-module",
+    "version": "2.0.0.2",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "SixtySeven\\UploadVideo\\": ""
+        }
+    }
+}

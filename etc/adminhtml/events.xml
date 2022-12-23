@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category  SixtySeven
+ * @package   SixtySeven_ProductVideo
+ * @author    67Digital http://67digital.com/
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="catalog_product_gallery_prepare_layout">
+        <observer name="change_template" instance="SixtySeven\UploadVideo\Observer\ChangeTemplateObserver" />
+    </event>
+</config>

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category  SixtySeven
+ * @package   SixtySeven_ProductVideo
+ * @author    67Digital http://67digital.com/
+ */
+-->
+<page layout="1column" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+	<head>
+	    <css src="SixtySeven_UploadVideo::css/ssd.css" />
+	</head>
+    <body>
+        <referenceContainer name="product.info.media">
+            <block class="SixtySeven\UploadVideo\Block\Product\View\Gallery" name="product.info.media.customvideo" after="product.info.media.video" template="SixtySeven_UploadVideo::product/view/gallery.phtml"/>
+        </referenceContainer>
+    </body>
+</page>

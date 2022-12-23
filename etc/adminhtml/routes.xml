@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category  SixtySeven
+ * @package   SixtySeven_ProductVideo
+ * @author    67Digital http://67digital.com/
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
+    <router id="admin">
+        <route id="productvideo" frontName="productvideo">
+            <module name="SixtySeven_UploadVideo" />
+        </route>
+    </router>
+</config>
